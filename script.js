@@ -17,6 +17,7 @@ const getSum = () => {
 	const col2 = document.createElement("td");
 	col2.id="ans";
 	col2.innerText = sum;
+	col2.setAttribute("data-ns-test","grandTotal")
 	row.append(col1,col2);
 	table.append(row);
 	
